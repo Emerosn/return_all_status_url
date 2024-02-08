@@ -1,5 +1,6 @@
-# return_all_status_url
-Descrição das Anotações:
+Descrição Detalhada das Anotações de Curl
+
+Tempo:
 
     time_namelookup: Tempo, em segundos, que o curl leva para resolver o nome do host.
     time_connect: Tempo, em segundos, que o curl leva para estabelecer a conexão TCP.
@@ -8,15 +9,36 @@ Descrição das Anotações:
     time_redirect: Tempo, em segundos, gasto em redirecionamentos, se houver.
     time_starttransfer: Tempo, em segundos, desde o início até que a primeira byte seja transferida.
     time_total: O tempo total, em segundos, que o curl levou para a operação.
+
+Velocidade:
+
     speed_download: A velocidade média de download, em bytes por segundo, que o curl calculou.
     speed_upload: A velocidade média de upload, em bytes por segundo, que o curl calculou.
+
+Endereço IP:
+
     remote_ip: O endereço IP do host remoto.
     remote_port: A porta remota.
     local_ip: O endereço IP local.
     local_port: A porta local.
+
+Tamanho:
+
     size_download: O tamanho total, em bytes, do conteúdo baixado.
     size_upload: O tamanho total, em bytes, do conteúdo enviado.
+
+Conexões:
+
     num_connects: O número total de conexões.
+
+Redirecionamento:
+
     redirect_url: A URL para a qual a solicitação foi redirecionada, se houver.
+
+Segurança:
+
     ssl_verify_result: O resultado da verificação do certificado SSL.
+
+HTTP:
+
     http_code: O código de status HTTP retornado pela solicitação.
