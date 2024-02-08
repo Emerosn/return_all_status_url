@@ -2,9 +2,10 @@ Description details to anotation key LLD return the web request
 Used:
     status_url.sh <URL>
 
+    
 Zabbix:
-    Type key `External Script`:
-        staus_url[<URL>]
+
+    staus_url[<URL>]: Type key `External Script`
 
 
 Time:
