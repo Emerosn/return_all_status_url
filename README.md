@@ -53,10 +53,4 @@ HTTP:
 
     http_code: HTTP status code returned by the request.
 
-Additional Information:
 
-    The script status_url.sh is responsible for executing the web request and parsing the response to extract these values.
-    The specific implementation of status_url.sh will determine the exact URLs and parameters used for the request.
-    Please refer to the script documentation for further details.
-
-I hope this improved description provides a clearer and more organized explanation of the LLD annotation key status_url.
