@@ -4,7 +4,7 @@ This document details the information returned by the status_url.sh script used 
 
 Key: status_url
 
-Type: External Script
+Type: External Script[<URL>]
 
 Description: This key utilizes the status_url.sh script to execute a web request and capture details about the response.
 
